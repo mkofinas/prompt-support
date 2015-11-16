@@ -1,0 +1,16 @@
+# Misc Symbols
+
+asterism="⁂ "
+very_much_greater_than="⋙ "
+therefore="∴"
+comet="☄"
+die_six="⚅"
+atom="⚛"
+check_mark="✓"
+ballot_x="✗"
+square="▪"
+rhombus="❖"
+clock="⌚"
+hourglass="⌛"
+ellipsis="…"
+user=" "
