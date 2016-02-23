@@ -9,7 +9,7 @@ for ii in xrange(int(devicons_start, 16), int(devicons_end, 16) + 1):
     print unichr(ii),
 
 custom_start = "e600"
-custom_end = "e621"
+custom_end = "e62b"
 
 print "\nCustom"
 for ii in xrange(int(custom_start, 16), int(custom_end, 16) + 1):
