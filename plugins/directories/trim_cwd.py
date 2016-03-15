@@ -8,8 +8,13 @@
 import os
 import sys
 
+
 def trim_cwd(num_trailing_directories=3):
-    current_directory = os.getcwd()
+    try:
+        current_directory = os.getcwd()
+    except OSError:
+        print('NON-EXISTING DIRECTORY!')
+        return
     home_directory = os.path.expanduser('~')
     current_directory = current_directory.replace(home_directory, '~', 1)
     directories = current_directory.split('/')
