@@ -8,7 +8,7 @@ print "Devicons"
 for ii in xrange(int(devicons_start, 16), int(devicons_end, 16) + 1):
     print unichr(ii),
 
-custom_start = "e600"
+custom_start = "e5fa"
 custom_end = "e62b"
 
 print "\nCustom"
@@ -16,7 +16,7 @@ for ii in xrange(int(custom_start, 16), int(custom_end, 16) + 1):
     print unichr(ii),
 
 font_awesome_start = "f000"
-font_awesome_end = "f280"
+font_awesome_end = "f295"
 
 print "\nFont Awesome"
 for ii in xrange(int(font_awesome_start, 16), int(font_awesome_end, 16) + 1):
