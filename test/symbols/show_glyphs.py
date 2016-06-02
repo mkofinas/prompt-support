@@ -28,3 +28,10 @@ powerline_end = "e0d4"
 print "\nPowerline"
 for ii in xrange(int(powerline_start, 16), int(powerline_end, 16) + 1):
     print unichr(ii),
+
+octicons_start = "f400"
+octicons_end = "f4e5"
+
+print "\nOcticons"
+for ii in xrange(int(octicons_start, 16), int(octicons_end, 16) + 1):
+    print unichr(ii),
