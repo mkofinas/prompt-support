@@ -13,4 +13,10 @@ rhombus="❖"
 clock="⌚"
 hourglass="⌛"
 ellipsis="…"
+big_ellipsis=""
 user=" "
+circle=""
+big_circle="⬤ "
+terminal_input=" "
+
+
