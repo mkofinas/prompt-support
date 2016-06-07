@@ -35,3 +35,10 @@ octicons_end = "f4e5"
 print "\nOcticons"
 for ii in xrange(int(octicons_start, 16), int(octicons_end, 16) + 1):
     print unichr(ii),
+
+octicons_start = "f300"
+octicons_end = "f313"
+
+print "\nFont Linux"
+for ii in xrange(int(octicons_start, 16), int(octicons_end, 16) + 1):
+    print unichr(ii),
