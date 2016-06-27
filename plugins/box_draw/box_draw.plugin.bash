@@ -31,7 +31,7 @@
 
 current_directory="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
-source $current_directory"/../../symbols/box_draw.symbols.sh"
+source $current_directory"/box_draw_symbols"
 
 box_draw() {
   local num_rows=$1
